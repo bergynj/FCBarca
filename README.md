@@ -1,8 +1,11 @@
 # FC Barcelona
-Barca Swag
+FC Barcelona App: forked from https://github.com/VctrySam/FCBarca
 
-# Demo
-https://youtu.be/PIk_u2cHKjE
+Modified to run on Xcode v.8.2.1
+react-native-cli: 2.0.1
+react-native: 0.32.1
+
+Full attribution goes to the author [@VctrySam](http://github.com/VctrySam/)
 
 #Run App
 - Clone
