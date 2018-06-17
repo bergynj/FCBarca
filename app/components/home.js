@@ -18,7 +18,7 @@ import {
   View
 } from 'react-native';
 
-import Swiper from 'react-native-scrollable-tab-view'
+// import Swiper from 'react-native-scrollable-tab-view'
 import EachArt from './widgets/eachArticle'
 import NextGame from './widgets/nextGame'
 
@@ -43,11 +43,13 @@ export default class Home extends Component {
       <TouchableOpacity style={{margin:5, marginLeft:50}}><Text style={{color:'#fff', fontWeight:'700', fontSize:12}}>SHOP</Text></TouchableOpacity>
       </View>
       <View style={styles.news}>
-      <Swiper style={{margin:10}} tabBarPosition="bottom" tabBarUnderlineStyle={{backgroundColor:"#d9991d"}}>
+      {/*
+	<Swiper style={{margin:10}} tabBarPosition="bottom" tabBarUnderlineStyle={{backgroundColor:"#d9991d"}}>
       <EachArt tabLabel="" />
       <NextGame tabLabel="  " />
       <EachArt tabLabel="   " />
-      </Swiper>
+      	</Swiper>
+	*/}
       </View>
       </Image>
       </Image>

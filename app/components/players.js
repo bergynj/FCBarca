@@ -247,7 +247,7 @@ var players = [{
 
 var i = 0
 
-import Swiper from 'react-native-scrollable-tab-view'
+// import Swiper from 'react-native-scrollable-tab-view'
 import EachArt from './widgets/eachArticle'
 import NextGame from './widgets/nextGame'
 
